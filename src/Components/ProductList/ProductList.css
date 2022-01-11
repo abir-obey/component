@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.user-card {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 30px;
+  width: 400px;
+}
+.user-card .title {
+  font-size: 25px;
+}
+.user-card .image {
+  width: 170px;
+  height: 200px;
+}
+.jewelery-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #7f93b9;
+  padding: 2%;
+  margin: 4% 20%;
+  border-radius: 30px;
+  border: 2px dashed #343a40;
+}
